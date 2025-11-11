@@ -33,7 +33,7 @@ def test_simple_order_placement(engine, base_time):
     executions = engine.process_order(buy_order)
     
     assert not executions
-    assert not engine.sell_book.is_empty()
+    assert engine.sell_book.is_empty()
     assert engine.buy_book.peek().OrderID == "B1"
 
 def test_simple_match_full(engine, base_time):
