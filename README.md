@@ -4,9 +4,9 @@ Balyasny Asset Management Hackathon in Imperial College London 11/11/2025
 REQUIREMENTS: 
 -pytest
 
-Price-Time Priority Matching Engine
+**Price-Time Priority Matching Engine**
 
-Author: [Your Name Here]
+Author: Hardik Karan
 Event: BAM Hackathon (November 2025)
 
 1. Project Overview
@@ -66,11 +66,11 @@ BAM-HACKATHON-11-11-2025/
 
 Clone the repository:
 
-git clone [your-repo-url]
+git clone https://github.com/HardikKaran/BAM-Hackathon-11-11-2025.git
 cd BAM-HACKATHON-11-11-2025
 
 
-(Optional but recommended) Create and activate a virtual environment:
+**Create and activate a virtual environment:**
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
