@@ -13,8 +13,8 @@ import pytest
 from datetime import datetime, timedelta
 
 # Update imports to reflect the new 'src' structure
-from src.matching_engine.models import Order, Side
-from src.matching_engine.engine import OrderMatchingEngine
+from matching_engine.models import Order, Side
+from matching_engine.engine import OrderMatchingEngine
 
 @pytest.fixture
 def engine() -> OrderMatchingEngine:
